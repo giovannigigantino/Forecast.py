@@ -10,6 +10,7 @@ Script to get weather forecast inside terminal.
 
 #-- LIB
 import pyowm
+from sys import argv
 
 #-- CLASS
 class WeatherForecast(object):
@@ -74,16 +75,20 @@ class WeatherForecast(object):
 
 #-- MAIN
 if __name__ == '__main__':
+		
+	if len(argv) == 3:	
 	
-	wf = WeatherForecast("Verona", "it")
+		wf = WeatherForecast("Verona", "it")
 
-	today = wf.weatherToday()
-	tomorrow = wf.weatherTomorrow()
+		today = wf.weatherToday()
+		tomorrow = wf.weatherTomorrow()
 
-	for key, value in today.iteritems():
-		print(key.capitalize() + ": " + value)
+		for key, value in today.iteritems():
+			print(key.capitalize() + ": " + value)
 
-	print("\n")
+		print("\n")
 
-	for key, value in tomorrow.iteritems():
-		print(key.capitalize() + ": " + value)
+		for key, value in tomorrow.iteritems():
+			print(key.capitalize() + ": " + value)
+	else:
+		print("Usage: Forecast.py <City> <state>")
