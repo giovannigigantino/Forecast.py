@@ -3,7 +3,7 @@
 # -*- coding: utf-8 -*-
 #-- DOCS
 '''
-Giovanni Gigantino  2016-02-18  [Python 2.7]
+giga843 <giovanni.gigantino.843@gmail.com>  2016-02-19  [Python 2.7]
 
 Script to get weather forecast inside terminal.
 '''
