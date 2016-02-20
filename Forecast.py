@@ -78,7 +78,7 @@ if __name__ == '__main__':
 		
 	if len(argv) == 3:	
 	
-		wf = WeatherForecast(args[1], args[2])
+		wf = WeatherForecast(argv[1], argv[2])
 
 		today = wf.weatherToday()
 		tomorrow = wf.weatherTomorrow()
