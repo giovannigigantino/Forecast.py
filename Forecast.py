@@ -86,7 +86,7 @@ if __name__ == '__main__':
 		for key, value in today.iteritems():
 			print(key.capitalize() + ": " + value)
 
-		print("\n")
+		print("")
 
 		for key, value in tomorrow.iteritems():
 			print(key.capitalize() + ": " + value)
