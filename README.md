@@ -15,7 +15,7 @@ alias forecast='python /path/to/Forecast.py'
 
 ## Usage
 ```bash
-python Forecast.py <City> <State>
+forecast <City> <State>
 ```
 
 ## Screenshot
