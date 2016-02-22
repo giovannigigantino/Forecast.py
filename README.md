@@ -8,14 +8,19 @@ Forecast allows you to get forecasts (from [OpenWeatherMap](http://openweatherma
 ```
 
 ## Script configuration
+Give it execution permissions:
+```bash
+# chmod +x /path/to/Todo.sh
+
+```
 Add in your *~/.bashrc* file:
 ```bash
-alias forecast='python /path/to/Forecast.py'
+alias forecast='/path/to/Forecast.py'
 ```
 
 ## Usage
 ```bash
-forecast <City> <State>
+$ forecast <City> <State>
 ```
 
 ## Screenshot
