@@ -10,7 +10,7 @@ Forecast allows you to get forecasts (from [OpenWeatherMap](http://openweatherma
 ## Script configuration
 Give it execution permissions:
 ```bash
-# chmod +x /path/to/Todo.sh
+# chmod +x /path/to/Forecast.py
 
 ```
 Add in your *~/.bashrc* file:
