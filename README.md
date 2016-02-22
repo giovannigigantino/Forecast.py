@@ -7,6 +7,12 @@ Forecast allows you to get forecasts (from [OpenWeatherMap](http://openweatherma
 # pip install pyowm
 ```
 
+## Script configuration
+Add in your *~/.bashrc* file:
+```bash
+alias forecast='python /path/to/Forecast.py'
+```
+
 ## Usage
 ```bash
 python Forecast.py <City> <State>
